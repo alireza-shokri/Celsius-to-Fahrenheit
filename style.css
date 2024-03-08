@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(5, 12, 48, 0.925);
+}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .title{
+        direction: rtl;
+        width: 400px;
+        margin: 90px auto 0;
+        color: orangered;
+        text-align: center;
+    }
+    .parent{
+        width: 430px;
+        height: 300px;
+        margin:60px auto;
+        padding: 20px;
+        border: 1px solid rgb(163, 52, 145);
+    }
+
+    .info{
+        padding: 0px 0px 20px 0;
+        font-size: 30px;
+        color: rgb(156, 196, 13);
+    }
+    #inputdama{
+        width: 100%;
+        padding: 14px;
+        border-radius: 4px;
+        border: 1px solid rgb(202, 14, 14);
+        outline: none;
+    }
+    .parent-butn{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 40px;
+    }
+    .chang,
+    .rest,
+    .ran{
+        width: 120px;
+        padding: 10px;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: wheat;
+    }
+    .tag-p{
+        width: 80%;
+        text-align: center;
+        margin: 25px auto 10px auto;
+        font-size: 20px;
+        color: blueviolet;
+        transition: 0.3s;
+        opacity: 0;
+    }
