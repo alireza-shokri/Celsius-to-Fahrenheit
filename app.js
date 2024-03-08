@@ -27,7 +27,8 @@ chang.addEventListener('click',function(){
 })
 
 // ran
-ran.addEventListener('click',function(){
+ran.addEventListener('click',my)
+function my(){
     let inputvalue=Number(input.value)
     if(!inputvalue){   
         p.innerHTML='wrong value';
@@ -44,8 +45,14 @@ ran.addEventListener('click',function(){
         p.style.color='yellow';
         p.style.opacity='100'
     }
-}) 
-
+}
+input.onkeyup=function(event){
+    if (event.key=='Enter')
+        my();
+    else if(event.key=='Backspace')
+    p.style.opacity='0'
+    }
+    
 // reset
 reset.addEventListener('click',function(){
    input.value=''

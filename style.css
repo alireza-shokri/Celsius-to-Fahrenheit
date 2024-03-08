@@ -9,18 +9,23 @@ body{
     .title{
         direction: rtl;
         width: 400px;
-        margin: 90px auto 0;
-        color: orangered;
+        margin: 70px auto 0;
+        padding: 10px;
         text-align: center;
+        color: orangered;
+        background-color:rgba(69, 77, 50, 0.589);
+        border-radius: 3px;
     }
     .parent{
         width: 430px;
         height: 300px;
-        margin:60px auto;
+        margin:50px auto;
         padding: 20px;
         border: 1px solid rgb(163, 52, 145);
+        border-radius: 2px;
+        box-shadow: 4px 4px 6px 0.9px;
+        background-color: rgba(5, 12, 48, 0.925); ;
     }
-
     .info{
         padding: 0px 0px 20px 0;
         font-size: 30px;
@@ -47,6 +52,18 @@ body{
         border: 1px solid;
         border-radius: 4px;
         background-color: wheat;
+    }
+    .chang:hover{
+        background-color: rgb(196, 176, 64);
+        transition: 0.2s;
+    }
+    .reset:hover{
+        background-color: rgb(196, 176, 64);
+        transition: 0.2s;
+    }
+    .ran:hover{
+        background-color: rgb(196, 176, 64);
+        transition: 0.2s;
     }
     .tag-p{
         width: 80%;
