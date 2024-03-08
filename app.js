@@ -1,7 +1,7 @@
 let $=document
 let input=$.getElementById('inputdama')
 let chang=$.querySelector('.chang')
-let rest=$.querySelector('.rest')
+let reset=$.querySelector('.reset')
 let ran=$.querySelector('.ran')
 let p=$.querySelector('.tag-p')
 let dama='C'
@@ -46,8 +46,8 @@ ran.addEventListener('click',function(){
     }
 }) 
 
-// rest
-rest.addEventListener('click',function(){
+// reset
+reset.addEventListener('click',function(){
    input.value=''
    p.style.opacity='0'
 })
