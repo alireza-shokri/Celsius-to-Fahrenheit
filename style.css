@@ -17,7 +17,7 @@ body{
         border-radius: 3px;
     }
     .parent{
-        width: 430px;
+        width: 400px;
         height: 300px;
         margin:50px auto;
         padding: 20px;
@@ -47,7 +47,7 @@ body{
     .chang,
     .reset,
     .ran{
-        width: 115px;
+        width:30%;
         padding: 10px;
         border: 1px solid;
         border-radius: 4px;
