@@ -36,12 +36,14 @@ function my(){
         p.style.opacity='100'
     }
     else if(dama=='C'){
-        p.innerHTML=inputvalue+'°C => '+(inputvalue*9/5+32)+'°F';
+        const fahrenheit=(inputvalue*9/5+32).toFixed(1)+'°F'
+        p.innerHTML=inputvalue+`°C => ${fahrenheit} `;
         p.style.color='yellow';
         p.style.opacity='100'
     }
     else{
-        p.innerHTML=inputvalue+'°F => '+((inputvalue-32)*5/9)+'°C';
+        const celsius = ((inputvalue-32)*5/9).toFixed(1) +'°C'
+        p.innerHTML=inputvalue+`°F => ${celsius}`;
         p.style.color='yellow';
         p.style.opacity='100'
     }
